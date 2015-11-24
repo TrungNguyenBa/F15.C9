@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1ECA7931-C29B-399E-6A52-C06039F8A5B1" name="F15.C9_Authorization ">
+<createdBy>tr</createdBy>
+<createdTime>2015-11-09 09:03:57 UTC</createdTime>
+<ownerDesignName>Proj_Logical_Model</ownerDesignName>
+<engineerTo>
+<item key="5D961713-4FB9-27AA-041D-9100DE112060" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Authorization_id" id="51282BAB-73BD-A877-9CA1-39C4B94F707D">
+<createdBy>tr</createdBy>
+<createdTime>2015-11-09 09:03:57 UTC</createdTime>
+<ownerDesignName>Proj_Logical_Model</ownerDesignName>
+<importedID>3C873F4E-C20F-D9AB-5EBB-00D74AB9B46F</importedID>
+<engineerTo>
+<item key="5D961713-4FB9-27AA-041D-9100DE112060" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Right" id="EEF6B735-F1BE-9F6E-792D-A585CCEE5513">
+<createdBy>tr</createdBy>
+<createdTime>2015-11-09 09:03:57 UTC</createdTime>
+<ownerDesignName>Proj_Logical_Model</ownerDesignName>
+<importedID>06E7D30D-CEC5-D9DD-F115-59375F452D63</importedID>
+<engineerTo>
+<item key="5D961713-4FB9-27AA-041D-9100DE112060" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EMPLOYEE ID" id="B8FF588D-772E-744B-B6DD-961A144A065A">
+<createdBy>tr</createdBy>
+<createdTime>2015-11-09 09:03:57 UTC</createdTime>
+<ownerDesignName>Proj_Logical_Model</ownerDesignName>
+<importedID>3746638D-A92E-C21F-869F-12A3FE89486D</importedID>
+<engineerTo>
+<item key="5D961713-4FB9-27AA-041D-9100DE112060" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EMPLOYEE ID1" id="98380030-B492-D185-79E9-000E51DB1FB0">
+<createdBy>tr</createdBy>
+<createdTime>2015-11-09 09:08:32 UTC</createdTime>
+<generatorID>11D6ED28-CF4A-D02F-6F3E-75276BAC39D7</generatorID>
+<ownerDesignName>Proj_Logical_Model</ownerDesignName>
+<engineerTo>
+<item key="5D961713-4FB9-27AA-041D-9100DE112060" value="true"/>
+</engineerTo>
+<referedAttribute>45A73796-9C35-B59B-D9CB-4C6A36AC13CF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AA946C82-C671-3648-9D09-B1C2DA76A7F4" name="F15.C9_Authorization PK">
+<createdBy>tr</createdBy>
+<createdTime>2015-11-09 09:03:57 UTC</createdTime>
+<ownerDesignName>Proj_Logical_Model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="5D961713-4FB9-27AA-041D-9100DE112060" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>51282BAB-73BD-A877-9CA1-39C4B94F707D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

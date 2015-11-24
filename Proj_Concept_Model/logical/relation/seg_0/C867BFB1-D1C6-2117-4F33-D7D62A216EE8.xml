@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="F15.C9 RFE TRACKING COMMENTS F15.C9 RFE EXCEPTION REQUESTS FK" directorySegmentName="seg_0" id="C867BFB1-D1C6-2117-4F33-D7D62A216EE8">
+<createdBy>Jared</createdBy>
+<createdTime>2015-10-22 00:07:45 UTC</createdTime>
+<ownerDesignName>Proj_Concept_Model</ownerDesignName>
+<engineerTo>
+<item key="7245CDFE-CF7F-61C2-FAE3-02B8EA5509E1" value="true"/>
+<item key="CBAA3F05-B333-FE37-B180-48A226BD08AF" value="true"/>
+</engineerTo>
+<sourcePk>3F09DB24-B3F6-EB91-632D-D088602E472C</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9D668F38-9215-98B0-87CC-8C702DE5FE12</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>8418F66A-8B23-1101-9CD5-06C493711730</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

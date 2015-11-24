@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F7D518D3-EEDB-40CC-00E4-4154185A5E9E" name="Company">
+<createdBy>tr</createdBy>
+<createdTime>2015-11-24 18:04:03 UTC</createdTime>
+<ownerDesignName>part2-concep</ownerDesignName>
+<engineerTo>
+<item key="1BFD6FF1-8861-A1DF-BB14-FD1314BE6664" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Company_ID" id="E6A7554F-F58A-12A3-0B96-C9B2E51AC888">
+<createdBy>tr</createdBy>
+<createdTime>2015-11-24 18:05:24 UTC</createdTime>
+<ownerDesignName>part2-concep</ownerDesignName>
+<engineerTo>
+<item key="1BFD6FF1-8861-A1DF-BB14-FD1314BE6664" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Company_name" id="9D4B4FC7-F010-E7E6-26E2-4F2DDABA234C">
+<createdBy>tr</createdBy>
+<createdTime>2015-11-24 18:05:25 UTC</createdTime>
+<ownerDesignName>part2-concep</ownerDesignName>
+<engineerTo>
+<item key="1BFD6FF1-8861-A1DF-BB14-FD1314BE6664" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

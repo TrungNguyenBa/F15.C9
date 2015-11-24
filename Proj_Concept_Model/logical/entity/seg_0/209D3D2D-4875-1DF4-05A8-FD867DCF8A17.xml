@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="209D3D2D-4875-1DF4-05A8-FD867DCF8A17" name="F15.C9 Documentation">
+<createdBy>tr</createdBy>
+<createdTime>2015-11-09 08:43:57 UTC</createdTime>
+<ownerDesignName>Proj_Concept_Model</ownerDesignName>
+<engineerTo>
+<item key="CBAA3F05-B333-FE37-B180-48A226BD08AF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Document Id" id="B8E5B986-C3BE-A8C1-D198-0AD19D680D07">
+<createdBy>tr</createdBy>
+<createdTime>2015-11-09 08:44:48 UTC</createdTime>
+<ownerDesignName>Proj_Concept_Model</ownerDesignName>
+<engineerTo>
+<item key="CBAA3F05-B333-FE37-B180-48A226BD08AF" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Description" id="0E11E421-5949-9C28-5115-A1F662828FBA">
+<createdBy>tr</createdBy>
+<createdTime>2015-11-09 08:49:09 UTC</createdTime>
+<ownerDesignName>Proj_Concept_Model</ownerDesignName>
+<engineerTo>
+<item key="CBAA3F05-B333-FE37-B180-48A226BD08AF" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RFE ID" id="CF4E777F-F6AA-87E7-4A1B-B18EC2F735E7">
+<createdBy>tr</createdBy>
+<createdTime>2015-11-09 08:49:39 UTC</createdTime>
+<generatorID>4E456F88-5057-E513-7EBA-B5A25DA1F00F</generatorID>
+<ownerDesignName>Proj_Concept_Model</ownerDesignName>
+<engineerTo>
+<item key="CBAA3F05-B333-FE37-B180-48A226BD08AF" value="true"/>
+</engineerTo>
+<referedAttribute>906D6F76-937C-D9F5-4024-F567709FFB65</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0CF17269-727E-07EE-2261-44A059C83008" name="F15.C9 Documentation PK">
+<createdBy>tr</createdBy>
+<createdTime>2015-11-09 08:49:07 UTC</createdTime>
+<ownerDesignName>Proj_Concept_Model</ownerDesignName>
+<engineerTo>
+<item key="CBAA3F05-B333-FE37-B180-48A226BD08AF" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B8E5B986-C3BE-A8C1-D198-0AD19D680D07</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

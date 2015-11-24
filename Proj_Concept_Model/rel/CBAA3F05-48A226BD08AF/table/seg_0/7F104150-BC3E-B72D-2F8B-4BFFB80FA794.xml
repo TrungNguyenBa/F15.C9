@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7F104150-BC3E-B72D-2F8B-4BFFB80FA794" name="F15.C9_RFE_TASKS">
+<createdBy>Jared</createdBy>
+<createdTime>2015-10-22 01:20:01 UTC</createdTime>
+<ownerDesignName>Proj_Concept_Model</ownerDesignName>
+<ordsAlias>table_12</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="EFFECTIVE_DATE" id="94930770-99E1-6766-853F-0AC6836EA0CB">
+<createdBy>Jared</createdBy>
+<createdTime>2015-10-22 01:20:16 UTC</createdTime>
+<ownerDesignName>Proj_Concept_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TASK_ABBREVIATION" id="461BB544-5586-478F-7A22-99C1B08B7166">
+<createdBy>Jared</createdBy>
+<createdTime>2015-10-22 01:20:36 UTC</createdTime>
+<ownerDesignName>Proj_Concept_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TASK_DESCRIPTION" id="2ED4FFBC-07B8-E4A8-BE19-24AA649C07E5">
+<createdBy>Jared</createdBy>
+<createdTime>2015-10-22 01:21:22 UTC</createdTime>
+<ownerDesignName>Proj_Concept_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID" id="9A34B73C-9766-D42F-A4C5-C23E081F727C">
+<createdBy>Jared</createdBy>
+<createdTime>2015-10-22 01:22:15 UTC</createdTime>
+<ownerDesignName>Proj_Concept_Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="F15.C9_RFE_EXCEPTION_REQUESTS_RFE_ID" id="8D2D2A8C-A35B-C663-7354-0BCD61AEC5C3">
+<createdBy>Jared</createdBy>
+<createdTime>2015-10-22 01:32:28 UTC</createdTime>
+<ownerDesignName>Proj_Concept_Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BCDA9258-0249-296A-992B-D0AECF09F1C6" referredColumn="A3499BDC-CA53-8CE2-DD84-817FB089FB35"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="15260F91-BBD1-E711-9474-E31E98E52642" name="F15.C9_RFE_TASKS_PK">
+<createdBy>Jared</createdBy>
+<createdTime>2015-10-22 01:22:15 UTC</createdTime>
+<ownerDesignName>Proj_Concept_Model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9A34B73C-9766-D42F-A4C5-C23E081F727C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F39F1893-865A-BF95-51FE-BF1323C1FA51" name="F15.C9_RFE_TASKS_F15.C9_RFE_EXCEPTION_REQUESTS_FK">
+<createdBy>Jared</createdBy>
+<createdTime>2015-10-22 01:32:28 UTC</createdTime>
+<ownerDesignName>Proj_Concept_Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8D2D2A8C-A35B-C663-7354-0BCD61AEC5C3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

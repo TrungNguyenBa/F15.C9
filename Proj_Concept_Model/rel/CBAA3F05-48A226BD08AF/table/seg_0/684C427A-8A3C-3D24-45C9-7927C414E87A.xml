@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="684C427A-8A3C-3D24-45C9-7927C414E87A" name="F15.C9_LAB">
+<createdBy>Jared</createdBy>
+<createdTime>2015-10-22 01:03:29 UTC</createdTime>
+<ownerDesignName>Proj_Concept_Model</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="LAB_ID" id="FEC682B2-E2C0-6580-654C-00478B940C7E">
+<createdBy>Jared</createdBy>
+<createdTime>2015-10-22 01:04:22 UTC</createdTime>
+<ownerDesignName>Proj_Concept_Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LAB_NAME" id="50DCEE67-94B5-F5FB-5877-D87C1E5C4A51">
+<createdBy>Jared</createdBy>
+<createdTime>2015-10-22 01:04:22 UTC</createdTime>
+<ownerDesignName>Proj_Concept_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LOCATION" id="CA8B8674-4CA3-B91A-C108-7EF0F89EF059">
+<createdBy>Jared</createdBy>
+<createdTime>2015-10-22 01:04:42 UTC</createdTime>
+<ownerDesignName>Proj_Concept_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="79825E24-43BA-73B8-DE9D-2BBA8A7C5731" name="F15.C9_LAB_PK">
+<createdBy>Jared</createdBy>
+<createdTime>2015-10-22 01:04:22 UTC</createdTime>
+<ownerDesignName>Proj_Concept_Model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FEC682B2-E2C0-6580-654C-00478B940C7E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F2A90553-7B2D-63F1-AF81-EA5954428771" name="F15.C9 LAB">
+<createdBy>Jared</createdBy>
+<createdTime>2015-10-21 23:38:53 UTC</createdTime>
+<ownerDesignName>Proj_Concept_Model</ownerDesignName>
+<engineerTo>
+<item key="CBAA3F05-B333-FE37-B180-48A226BD08AF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="LAB ID" id="E1A71D1A-DADC-0B35-5F19-3FA94D83B0B5">
+<createdBy>Jared</createdBy>
+<createdTime>2015-10-21 23:42:29 UTC</createdTime>
+<ownerDesignName>Proj_Concept_Model</ownerDesignName>
+<engineerTo>
+<item key="CBAA3F05-B333-FE37-B180-48A226BD08AF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LAB NAME" id="D5CC12AF-2AF2-E27B-5A2B-FAB8866D6592">
+<createdBy>Jared</createdBy>
+<createdTime>2015-10-21 23:42:43 UTC</createdTime>
+<ownerDesignName>Proj_Concept_Model</ownerDesignName>
+<engineerTo>
+<item key="CBAA3F05-B333-FE37-B180-48A226BD08AF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LOCATION" id="20044BC4-4818-E0A9-20BA-A64DEB97A018">
+<createdBy>Jared</createdBy>
+<createdTime>2015-10-21 23:43:10 UTC</createdTime>
+<ownerDesignName>Proj_Concept_Model</ownerDesignName>
+<engineerTo>
+<item key="CBAA3F05-B333-FE37-B180-48A226BD08AF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D46F3220-E5B4-E4E8-CA15-C5C3E2BC4110" name="F15.C9_LAB_PK">
+<createdBy>Jared</createdBy>
+<createdTime>2015-10-21 23:42:35 UTC</createdTime>
+<ownerDesignName>Proj_Concept_Model</ownerDesignName>
+<engineerTo>
+<item key="CBAA3F05-B333-FE37-B180-48A226BD08AF" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E1A71D1A-DADC-0B35-5F19-3FA94D83B0B5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

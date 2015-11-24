@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="43D19B0F-F638-5847-01A4-3B9D7E0D46DF" name="F15.C9_RFE_HISTORY">
+<createdBy>tr</createdBy>
+<createdTime>2015-11-09 09:15:17 UTC</createdTime>
+<generatorID>F3901993-1D84-C71A-122D-A00176137BF2</generatorID>
+<ownerDesignName>Proj_Logical_Model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="DB393CE4-7D6E-8740-0D4F-6AF3C6EC36EF">
+<createdBy>tr</createdBy>
+<createdTime>2015-11-09 09:15:17 UTC</createdTime>
+<generatorID>34D392E9-8CE7-4E75-AE5F-638E3EFFEF80</generatorID>
+<ownerDesignName>Proj_Logical_Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EFFECTIVE_DATE" id="C41E87E5-AF6B-EB9F-4947-D68241B2FD2D">
+<createdBy>tr</createdBy>
+<createdTime>2015-11-09 09:15:17 UTC</createdTime>
+<generatorID>C5603FB0-E3FF-7783-A463-44072F469469</generatorID>
+<ownerDesignName>Proj_Logical_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ENTERED_BY_EMP_ID" id="D241E535-90FC-90E9-77F3-5FB9128CAD82">
+<createdBy>tr</createdBy>
+<createdTime>2015-11-09 09:15:17 UTC</createdTime>
+<generatorID>43F8E31B-3E94-CB6C-0DA0-2CCAA79A2B09</generatorID>
+<ownerDesignName>Proj_Logical_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMPLOYEE_TITLE_CODE" id="E17BB166-1427-D1E2-21E5-69D8415046A4">
+<createdBy>tr</createdBy>
+<createdTime>2015-11-09 09:15:17 UTC</createdTime>
+<generatorID>16F28CA9-2AFB-2F98-6B53-2FC5EDD129A0</generatorID>
+<ownerDesignName>Proj_Logical_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="F15.C9_RFE_EXCEPTION_REQUESTS_RFE_ID" id="03CA4A7B-275F-9524-28A2-89FC38CBF149">
+<createdBy>tr</createdBy>
+<createdTime>2015-11-09 09:15:17 UTC</createdTime>
+<generatorID>74F0C3F0-0CC6-859D-A1EC-631EF98CD953</generatorID>
+<ownerDesignName>Proj_Logical_Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="89786D38-6E07-C383-C60B-76A1648A902A" referredColumn="922B2E87-DD04-9F70-1C35-FDE8030BCB02"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ABC0A228-9A15-1685-159E-8E53202ABF45" name="F15.C9_RFE_HISTORY_PK">
+<createdBy>tr</createdBy>
+<createdTime>2015-11-09 09:15:17 UTC</createdTime>
+<generatorID>9FFF0D6C-0EFD-4C62-D24B-AE8F0E4A10D0</generatorID>
+<ownerDesignName>Proj_Logical_Model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DB393CE4-7D6E-8740-0D4F-6AF3C6EC36EF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8DAFADCE-3569-DCCE-90BC-D3F528A777CE" name="F15.C9_RFE_HISTORY_F15.C9_RFE_EXCEPTION_REQUESTS_FK">
+<createdBy>tr</createdBy>
+<createdTime>2015-11-09 09:15:17 UTC</createdTime>
+<generatorID>644972D5-BD0E-A19A-416F-92DE2E385F4D</generatorID>
+<ownerDesignName>Proj_Logical_Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="03CA4A7B-275F-9524-28A2-89FC38CBF149"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

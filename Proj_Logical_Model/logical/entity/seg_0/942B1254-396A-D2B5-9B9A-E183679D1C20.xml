@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="942B1254-396A-D2B5-9B9A-E183679D1C20" name="F15.C9 Documentation">
+<createdBy>tr</createdBy>
+<createdTime>2015-11-09 09:03:57 UTC</createdTime>
+<ownerDesignName>Proj_Logical_Model</ownerDesignName>
+<engineerTo>
+<item key="5D961713-4FB9-27AA-041D-9100DE112060" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Document Id" id="2BBA9285-D159-5AA6-F154-31B28975A1DB">
+<createdBy>tr</createdBy>
+<createdTime>2015-11-09 09:03:57 UTC</createdTime>
+<ownerDesignName>Proj_Logical_Model</ownerDesignName>
+<importedID>B8E5B986-C3BE-A8C1-D198-0AD19D680D07</importedID>
+<engineerTo>
+<item key="5D961713-4FB9-27AA-041D-9100DE112060" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Description" id="A507CB4E-7826-0AAA-12A2-670B580DCA0B">
+<createdBy>tr</createdBy>
+<createdTime>2015-11-09 09:03:57 UTC</createdTime>
+<ownerDesignName>Proj_Logical_Model</ownerDesignName>
+<importedID>0E11E421-5949-9C28-5115-A1F662828FBA</importedID>
+<engineerTo>
+<item key="5D961713-4FB9-27AA-041D-9100DE112060" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3000</dataTypeSize>
+<ownDataTypeParameters>3000,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RFE ID" id="42B89ED9-4B1D-5A1E-2AF6-A923DDCD97DC">
+<createdBy>tr</createdBy>
+<createdTime>2015-11-09 09:03:57 UTC</createdTime>
+<generatorID>841A4950-850A-6AC4-0310-706B3A9EB9D2</generatorID>
+<ownerDesignName>Proj_Logical_Model</ownerDesignName>
+<importedID>CF4E777F-F6AA-87E7-4A1B-B18EC2F735E7</importedID>
+<engineerTo>
+<item key="5D961713-4FB9-27AA-041D-9100DE112060" value="true"/>
+</engineerTo>
+<referedAttribute>D289F14B-3EF6-6A4E-DF1C-33C74BE54F5B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6B09CC60-984B-0BA7-3B5A-821B3E0F7078" name="F15.C9 Documentation PK">
+<createdBy>tr</createdBy>
+<createdTime>2015-11-09 09:03:57 UTC</createdTime>
+<ownerDesignName>Proj_Logical_Model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="5D961713-4FB9-27AA-041D-9100DE112060" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2BBA9285-D159-5AA6-F154-31B28975A1DB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

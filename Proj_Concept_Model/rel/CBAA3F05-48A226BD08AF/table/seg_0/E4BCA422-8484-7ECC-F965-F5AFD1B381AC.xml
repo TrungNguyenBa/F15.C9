@@ -1,0 +1,203 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E4BCA422-8484-7ECC-F965-F5AFD1B381AC" name="F15.C9_ARL_EMPLOYEES">
+<createdBy>Jared</createdBy>
+<createdTime>2015-10-22 00:57:18 UTC</createdTime>
+<ownerDesignName>Proj_Concept_Model</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="EMPLOYEE_ID" id="95B93CF5-EAC3-FC8B-B732-BBE8097FE048">
+<createdBy>Jared</createdBy>
+<createdTime>2015-10-22 01:03:05 UTC</createdTime>
+<ownerDesignName>Proj_Concept_Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMPLOYEE_NAME" id="49C3BE46-64A7-D963-B91F-D4C318D83472">
+<createdBy>Jared</createdBy>
+<createdTime>2015-10-22 01:03:05 UTC</createdTime>
+<ownerDesignName>Proj_Concept_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMPLOYEE_LAB" id="841D8344-2441-EE60-F2BB-576102165C31">
+<createdBy>Jared</createdBy>
+<createdTime>2015-10-22 01:03:05 UTC</createdTime>
+<ownerDesignName>Proj_Concept_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMPLOYEE_EMAIL" id="4E3AE0F4-C23A-8D19-DDC1-39F33057841A">
+<createdBy>Jared</createdBy>
+<createdTime>2015-10-22 01:03:05 UTC</createdTime>
+<ownerDesignName>Proj_Concept_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMPLOYEE_OFFICE" id="9CB3B559-716E-FFA5-7469-CA13A185CD48">
+<createdBy>Jared</createdBy>
+<createdTime>2015-10-22 01:03:05 UTC</createdTime>
+<ownerDesignName>Proj_Concept_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMPLOYEE_PHONE" id="3040EF10-1784-CF30-1B8F-CEEC2A14A0E9">
+<createdBy>Jared</createdBy>
+<createdTime>2015-10-22 01:03:05 UTC</createdTime>
+<ownerDesignName>Proj_Concept_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STATUS_EFF_DATE" id="FA4BCEDC-1620-3CD7-8114-59EC1A208CAD">
+<createdBy>Jared</createdBy>
+<createdTime>2015-10-22 01:03:05 UTC</createdTime>
+<ownerDesignName>Proj_Concept_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SYSTEM_ADMIN_FLAG" id="44815188-EE49-E4CF-8F93-BC3FA593ACE0">
+<createdBy>Jared</createdBy>
+<createdTime>2015-10-22 01:03:05 UTC</createdTime>
+<ownerDesignName>Proj_Concept_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LAB_DIRECTOR_FLAG" id="334CCAFE-953E-A3B1-7196-4885CF2EB33D">
+<createdBy>Jared</createdBy>
+<createdTime>2015-10-22 01:03:05 UTC</createdTime>
+<ownerDesignName>Proj_Concept_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EXEC_DIRECTOR_FLAG" id="9BDB8EAA-2491-10DF-1C1D-6E205D4C6864">
+<createdBy>Jared</createdBy>
+<createdTime>2015-10-22 01:03:05 UTC</createdTime>
+<ownerDesignName>Proj_Concept_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CHAIRPERSON_FLAG" id="8D0E3A3E-1CAE-2B28-17AC-499EE8C2C298">
+<createdBy>Jared</createdBy>
+<createdTime>2015-10-22 01:03:05 UTC</createdTime>
+<ownerDesignName>Proj_Concept_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TITLE_CODE" id="B1E4AA17-C77D-817A-DFED-DDD07FB5CFA4">
+<createdBy>Jared</createdBy>
+<createdTime>2015-10-22 01:03:05 UTC</createdTime>
+<ownerDesignName>Proj_Concept_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TITLE" id="B6B5E09C-DAD1-3E0E-066C-2EDD4CCAFB06">
+<createdBy>Jared</createdBy>
+<createdTime>2015-10-22 01:03:05 UTC</createdTime>
+<ownerDesignName>Proj_Concept_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="F15.C9_LAB_LAB_ID" id="EBD22B6C-F39C-9F8B-FCFF-3BFF3CE5AD85">
+<createdBy>Jared</createdBy>
+<createdTime>2015-10-22 01:31:01 UTC</createdTime>
+<ownerDesignName>Proj_Concept_Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4FE5427E-B763-79CB-8834-FFE1B0716041" referredColumn="FEC682B2-E2C0-6580-654C-00478B940C7E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1B783026-DECC-5CBE-BFD2-48C915F59762" name="F15.C9_ARL_EMPLOYEES_PK">
+<createdBy>Jared</createdBy>
+<createdTime>2015-10-22 01:03:05 UTC</createdTime>
+<ownerDesignName>Proj_Concept_Model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="95B93CF5-EAC3-FC8B-B732-BBE8097FE048"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9D3A155D-856A-070B-2801-D975A91F64FF" name="F15.C9_ARL_EMPLOYEES_F15.C9_LAB_FK">
+<createdBy>Jared</createdBy>
+<createdTime>2015-10-22 01:31:01 UTC</createdTime>
+<ownerDesignName>Proj_Concept_Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EBD22B6C-F39C-9F8B-FCFF-3BFF3CE5AD85"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

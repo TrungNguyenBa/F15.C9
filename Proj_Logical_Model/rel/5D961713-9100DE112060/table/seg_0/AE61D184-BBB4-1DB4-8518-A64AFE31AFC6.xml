@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AE61D184-BBB4-1DB4-8518-A64AFE31AFC6" name="F15.C9_Documentation">
+<createdBy>tr</createdBy>
+<createdTime>2015-11-09 09:15:17 UTC</createdTime>
+<generatorID>942B1254-396A-D2B5-9B9A-E183679D1C20</generatorID>
+<ownerDesignName>Proj_Logical_Model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Document_Id" id="C2048966-3BF6-7714-649B-8C1A1AA6FD06">
+<createdBy>tr</createdBy>
+<createdTime>2015-11-09 09:15:17 UTC</createdTime>
+<generatorID>2BBA9285-D159-5AA6-F154-31B28975A1DB</generatorID>
+<ownerDesignName>Proj_Logical_Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Description" id="C23DB282-E97A-9922-DB0C-EF73FA243E12">
+<createdBy>tr</createdBy>
+<createdTime>2015-11-09 09:15:17 UTC</createdTime>
+<generatorID>A507CB4E-7826-0AAA-12A2-670B580DCA0B</generatorID>
+<ownerDesignName>Proj_Logical_Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3000</dataTypeSize>
+<ownDataTypeParameters>3000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="F15.C9_RFE_EXCEPTION_REQUESTS_RFE_ID" id="19783ACB-036A-C6BB-AE60-33A63911693A">
+<createdBy>tr</createdBy>
+<createdTime>2015-11-09 09:15:17 UTC</createdTime>
+<generatorID>42B89ED9-4B1D-5A1E-2AF6-A923DDCD97DC</generatorID>
+<ownerDesignName>Proj_Logical_Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E4C044C3-F87E-AF95-A35F-587CD2C876A8" referredColumn="922B2E87-DD04-9F70-1C35-FDE8030BCB02"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="43C7E33A-7017-3F6E-9B0F-D43F34A92F2D" name="F15.C9_Documentation_PK">
+<createdBy>tr</createdBy>
+<createdTime>2015-11-09 09:15:17 UTC</createdTime>
+<generatorID>6B09CC60-984B-0BA7-3B5A-821B3E0F7078</generatorID>
+<ownerDesignName>Proj_Logical_Model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C2048966-3BF6-7714-649B-8C1A1AA6FD06"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CE32DF27-E596-F015-0957-A562A425E8D6" name="F15.C9_Documentation_F15.C9_RFE_EXCEPTION_REQUESTS_FK">
+<createdBy>tr</createdBy>
+<createdTime>2015-11-09 09:15:17 UTC</createdTime>
+<generatorID>841A4950-850A-6AC4-0310-706B3A9EB9D2</generatorID>
+<ownerDesignName>Proj_Logical_Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="19783ACB-036A-C6BB-AE60-33A63911693A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

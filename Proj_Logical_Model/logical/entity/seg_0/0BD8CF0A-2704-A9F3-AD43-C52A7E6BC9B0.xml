@@ -1,0 +1,162 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0BD8CF0A-2704-A9F3-AD43-C52A7E6BC9B0" name="F15.C9 RFE CONTACTS">
+<createdBy>tr</createdBy>
+<createdTime>2015-11-09 09:03:57 UTC</createdTime>
+<ownerDesignName>Proj_Logical_Model</ownerDesignName>
+<engineerTo>
+<item key="5D961713-4FB9-27AA-041D-9100DE112060" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="RFE ID" id="31B91653-B91E-C700-B821-CCA069F2632A">
+<createdBy>tr</createdBy>
+<createdTime>2015-11-09 09:03:57 UTC</createdTime>
+<ownerDesignName>Proj_Logical_Model</ownerDesignName>
+<importedID>9CD0815C-724C-5DCE-9956-8AFFBB5FFA83</importedID>
+<engineerTo>
+<item key="5D961713-4FB9-27AA-041D-9100DE112060" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CONTACT ROLE CODE" id="6D31D26B-FD36-DC13-DA4D-FF028F3A1FAB">
+<createdBy>tr</createdBy>
+<createdTime>2015-11-09 09:03:57 UTC</createdTime>
+<ownerDesignName>Proj_Logical_Model</ownerDesignName>
+<importedID>71C36A3C-6C28-960C-4BD3-254393DBB6F0</importedID>
+<engineerTo>
+<item key="5D961713-4FB9-27AA-041D-9100DE112060" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CONTACT EMP ID" id="322DB352-D015-BA5E-6451-0CC2CEBBF284">
+<createdBy>tr</createdBy>
+<createdTime>2015-11-09 09:03:57 UTC</createdTime>
+<ownerDesignName>Proj_Logical_Model</ownerDesignName>
+<importedID>FFAFFB2C-4C66-2DFB-D28A-B583B08B4936</importedID>
+<engineerTo>
+<item key="5D961713-4FB9-27AA-041D-9100DE112060" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EFFECTIVE DATE" id="8B327F23-28B4-11CD-C487-8952B66CFFD5">
+<createdBy>tr</createdBy>
+<createdTime>2015-11-09 09:03:57 UTC</createdTime>
+<ownerDesignName>Proj_Logical_Model</ownerDesignName>
+<importedID>6E30F7E1-1D23-6C16-317C-6877ECD57236</importedID>
+<engineerTo>
+<item key="5D961713-4FB9-27AA-041D-9100DE112060" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COMMENTS" id="51A1B852-E688-50F4-E94A-25CC83A93AD5">
+<createdBy>tr</createdBy>
+<createdTime>2015-11-09 09:03:57 UTC</createdTime>
+<ownerDesignName>Proj_Logical_Model</ownerDesignName>
+<importedID>C2299837-3032-9EF7-1EC1-F542894553F2</importedID>
+<engineerTo>
+<item key="5D961713-4FB9-27AA-041D-9100DE112060" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<ownDataTypeParameters>4000,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="F15.C9 ARL EMPLOYEES EMPLOYEE ID" id="BEB472BC-0AA7-11FF-A350-89669858B63D">
+<createdBy>tr</createdBy>
+<createdTime>2015-11-09 09:03:57 UTC</createdTime>
+<ownerDesignName>Proj_Logical_Model</ownerDesignName>
+<importedID>78A4AE44-5C18-C801-3B6F-8A03A0F1733E</importedID>
+<engineerTo>
+<item key="5D961713-4FB9-27AA-041D-9100DE112060" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RFE ID1" id="D3615157-4053-CF14-DC82-C0B6D1593EC2">
+<createdBy>tr</createdBy>
+<createdTime>2015-11-09 09:03:57 UTC</createdTime>
+<generatorID>21A7265C-4AAC-E2C9-7433-BD9DF7276B6C</generatorID>
+<ownerDesignName>Proj_Logical_Model</ownerDesignName>
+<importedID>2CC35287-B97A-BF20-240E-95EB3A1555B4</importedID>
+<engineerTo>
+<item key="5D961713-4FB9-27AA-041D-9100DE112060" value="true"/>
+</engineerTo>
+<referedAttribute>D289F14B-3EF6-6A4E-DF1C-33C74BE54F5B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CONTACT ROLE " id="09FA636B-7645-28AA-8805-B8661240D833">
+<createdBy>tr</createdBy>
+<createdTime>2015-11-09 09:03:57 UTC</createdTime>
+<ownerDesignName>Proj_Logical_Model</ownerDesignName>
+<importedID>D9E733C3-0D59-224D-AAC7-D07C3038D512</importedID>
+<engineerTo>
+<item key="5D961713-4FB9-27AA-041D-9100DE112060" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EMPLOYEE ID" id="CFA8D3FF-8300-9546-D321-A28155E4F92B">
+<createdBy>tr</createdBy>
+<createdTime>2015-11-09 09:11:07 UTC</createdTime>
+<generatorID>D7F993CC-B0AC-65C6-D27D-3D696E09BC38</generatorID>
+<ownerDesignName>Proj_Logical_Model</ownerDesignName>
+<engineerTo>
+<item key="5D961713-4FB9-27AA-041D-9100DE112060" value="true"/>
+</engineerTo>
+<referedAttribute>45A73796-9C35-B59B-D9CB-4C6A36AC13CF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F7DE8F0D-D319-BFBA-0FBC-41BC51361ADE" name="F15.C9_RFE_CONTACTS_PK">
+<createdBy>tr</createdBy>
+<createdTime>2015-11-09 09:03:57 UTC</createdTime>
+<ownerDesignName>Proj_Logical_Model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="5D961713-4FB9-27AA-041D-9100DE112060" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>31B91653-B91E-C700-B821-CCA069F2632A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

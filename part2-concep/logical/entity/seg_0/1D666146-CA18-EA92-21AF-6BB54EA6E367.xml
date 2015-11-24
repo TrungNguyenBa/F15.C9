@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1D666146-CA18-EA92-21AF-6BB54EA6E367" name="STOCK">
+<createdBy>tr</createdBy>
+<createdTime>2015-11-24 18:03:47 UTC</createdTime>
+<ownerDesignName>part2-concep</ownerDesignName>
+<engineerTo>
+<item key="1BFD6FF1-8861-A1DF-BB14-FD1314BE6664" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="STOCK_ID" id="1670475E-508D-4140-FC1B-F7AB9E4E39FD">
+<createdBy>tr</createdBy>
+<createdTime>2015-11-24 18:06:35 UTC</createdTime>
+<ownerDesignName>part2-concep</ownerDesignName>
+<engineerTo>
+<item key="1BFD6FF1-8861-A1DF-BB14-FD1314BE6664" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="STOCK_NAME" id="7FCE080E-25D4-F6F7-20ED-20E03820FF53">
+<createdBy>tr</createdBy>
+<createdTime>2015-11-24 18:06:35 UTC</createdTime>
+<ownerDesignName>part2-concep</ownerDesignName>
+<engineerTo>
+<item key="1BFD6FF1-8861-A1DF-BB14-FD1314BE6664" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Present_VALUE" id="2C9DF7D3-A791-9134-197C-0E3B0F574A98">
+<createdBy>tr</createdBy>
+<createdTime>2015-11-24 18:06:35 UTC</createdTime>
+<ownerDesignName>part2-concep</ownerDesignName>
+<engineerTo>
+<item key="1BFD6FF1-8861-A1DF-BB14-FD1314BE6664" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EXPECTED_INCREASE_PERCENT" id="26E6A7C0-1940-48FA-0816-190BF5699219">
+<createdBy>tr</createdBy>
+<createdTime>2015-11-24 18:06:36 UTC</createdTime>
+<ownerDesignName>part2-concep</ownerDesignName>
+<engineerTo>
+<item key="1BFD6FF1-8861-A1DF-BB14-FD1314BE6664" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ACCURACY_PERCENT" id="9007AF56-0E67-8AC7-FF01-BC9B8F18CC47">
+<createdBy>tr</createdBy>
+<createdTime>2015-11-24 18:06:36 UTC</createdTime>
+<ownerDesignName>part2-concep</ownerDesignName>
+<engineerTo>
+<item key="1BFD6FF1-8861-A1DF-BB14-FD1314BE6664" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="AMOUNT" id="855C0009-9832-7564-010C-F20D5FD4E0F8">
+<createdBy>tr</createdBy>
+<createdTime>2015-11-24 18:06:36 UTC</createdTime>
+<ownerDesignName>part2-concep</ownerDesignName>
+<engineerTo>
+<item key="1BFD6FF1-8861-A1DF-BB14-FD1314BE6664" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

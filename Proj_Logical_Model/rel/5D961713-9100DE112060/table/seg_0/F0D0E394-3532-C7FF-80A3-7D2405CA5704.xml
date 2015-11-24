@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F0D0E394-3532-C7FF-80A3-7D2405CA5704" name="F15.C9_LAB">
+<createdBy>tr</createdBy>
+<createdTime>2015-11-09 09:15:17 UTC</createdTime>
+<generatorID>BFEBEF3B-4D19-70AD-864B-4413E79284D3</generatorID>
+<ownerDesignName>Proj_Logical_Model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="LAB_ID" id="6FE1AE50-DCCB-7E5A-2C16-5FE5BEA28C54">
+<createdBy>tr</createdBy>
+<createdTime>2015-11-09 09:15:17 UTC</createdTime>
+<generatorID>F7AE73CA-39B5-8F6D-B9C6-7BDF6BFDE40A</generatorID>
+<ownerDesignName>Proj_Logical_Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LAB_NAME" id="50723A60-0BE7-0B5F-9096-191A1830D6F7">
+<createdBy>tr</createdBy>
+<createdTime>2015-11-09 09:15:17 UTC</createdTime>
+<generatorID>37FCDA7E-B48E-31D2-4131-575A301CB43B</generatorID>
+<ownerDesignName>Proj_Logical_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LOCATION" id="6E915492-94AC-3E3B-A78A-EFE4DB0D7765">
+<createdBy>tr</createdBy>
+<createdTime>2015-11-09 09:15:17 UTC</createdTime>
+<generatorID>4950FED8-79AC-C1E3-4C0A-0D92A36B3F92</generatorID>
+<ownerDesignName>Proj_Logical_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="56F6BFB0-CEC1-1907-AC9C-EBEE0872B7EA" name="F15.C9_LAB_PK">
+<createdBy>tr</createdBy>
+<createdTime>2015-11-09 09:15:17 UTC</createdTime>
+<generatorID>4ACEF853-2969-DA0F-BEF8-5836AC2BDBE0</generatorID>
+<ownerDesignName>Proj_Logical_Model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6FE1AE50-DCCB-7E5A-2C16-5FE5BEA28C54"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

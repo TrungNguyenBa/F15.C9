@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="BA029C85-DB04-FFAE-68F6-D74CB2DC9C74" name="F15.C9 ARL EMPLOYEES" seqName="seg_0"/>
+   <object objectType="Entity" objectID="C3C2EC6B-0DCC-A039-FD1B-473C5246C2A6" name="F15.C9 CHAIRPERSON" seqName="seg_0"/>
+   <object objectType="Entity" objectID="209D3D2D-4875-1DF4-05A8-FD867DCF8A17" name="F15.C9 Documentation" seqName="seg_0"/>
+   <object objectType="Entity" objectID="64DBE8BA-4815-42AF-7668-84FA78BAB34C" name="F15.C9 EXECUTIVE DIRECTOR" seqName="seg_0"/>
+   <object objectType="Entity" objectID="F2A90553-7B2D-63F1-AF81-EA5954428771" name="F15.C9 LAB" seqName="seg_0"/>
+   <object objectType="Entity" objectID="77AA5E0A-1C14-8285-9DC9-D0604CC83C72" name="F15.C9 LAB EMPLOYEE" seqName="seg_0"/>
+   <object objectType="Entity" objectID="DC283129-3F2B-39B1-DCD4-D4FB0FF03C0C" name="F15.C9 PROJECT" seqName="seg_0"/>
+   <object objectType="Entity" objectID="9D668F38-9215-98B0-87CC-8C702DE5FE12" name="F15.C9 RFE EXCEPTION REQUESTS" seqName="seg_0"/>
+   <object objectType="Entity" objectID="FF2C22A2-A435-3684-1627-9BAA1993A006" name="F15.C9 RFE HISTORY" seqName="seg_0"/>
+   <object objectType="Entity" objectID="A2C43493-ADD8-AE2E-4EF7-CFC095C618BF" name="F15.C9 RFE ROLE TYPE CODES" seqName="seg_0"/>
+   <object objectType="Entity" objectID="5038D70F-DA9D-0632-68B7-AF04B554E9EB" name="F15.C9 RFE STATUS CODES" seqName="seg_0"/>
+   <object objectType="Entity" objectID="C151544B-CDD0-6370-6F17-CE1873D89865" name="F15.C9 RFE TASKS" seqName="seg_0"/>
+   <object objectType="Entity" objectID="8418F66A-8B23-1101-9CD5-06C493711730" name="F15.C9 RFE TRACKING COMMENTS" seqName="seg_0"/>
+   <object objectType="Entity" objectID="A5EB863B-8646-0A1F-17BF-1A4D7D6E27D4" name="F15.C9_Authorization " seqName="seg_0"/>
+   <object objectType="Entity" objectID="8161D149-9473-B445-AA22-DBBC2215F7EE" name="F15.C9_LAB_DIRECTOR" seqName="seg_0"/>
+   <object objectType="Entity" objectID="4AEDCC49-C1CA-D27D-2D46-C72A07480A60" name="F15.C9_LAB_SYSTEM_ADMINISTRATOR" seqName="seg_0"/>
+   <object objectType="Entity" objectID="BBB5E2C9-09A6-F819-18EE-7E8B6A529A83" name="F15.C9_REQUESTOR" seqName="seg_0"/>
+   <object objectType="Relation" objectID="C67CA509-E1ED-09D0-D553-28F8A5253672" name="F15.C9 LAB EMPLOYEE F15.C9 LAB FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="B206AD59-F146-0F96-6C71-D01142CC52AA" name="F15.C9 PROJECT F15.C9 LAB FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="7C3C8B72-6C03-07B0-9FD7-E36136EBC69F" name="F15.C9 RFE EXCEPTION REQUESTS F15.C9 EXECUTIVE DIRECTOR FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="F026F840-CAA1-64B1-A85A-0607A0E6FBE4" name="F15.C9 RFE EXCEPTION REQUESTS F15.C9 LAB EMPLOYEE FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="05C5C570-B470-4A82-E8FF-23A8D7A5E383" name="F15.C9 RFE EXCEPTION REQUESTS F15.C9 LAB EMPLOYEE FKv1" seqName="seg_0"/>
+   <object objectType="Relation" objectID="72478EC6-59C8-239E-1705-1ADBFAC1A245" name="F15.C9 RFE STATUSES F15.C9 RFE EXCEPTION REQUESTS FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="5DC0AD2B-166D-77EB-B41E-EF6BC839E187" name="F15.C9 RFE STATUSES F15.C9 RFE STATUS CODES FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="2E677996-C0CD-6C9E-8168-A2907AACFD70" name="F15.C9 RFE TASKS F15.C9 RFE EXCEPTION REQUESTS FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="C867BFB1-D1C6-2117-4F33-D7D62A216EE8" name="F15.C9 RFE TRACKING COMMENTS F15.C9 RFE EXCEPTION REQUESTS FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="2CC6FF5F-216D-5D1E-D7A1-1EDB46FADC14" name="Relation_15" seqName="seg_0"/>
+   <object objectType="Relation" objectID="4E456F88-5057-E513-7EBA-B5A25DA1F00F" name="Relation_18" seqName="seg_0"/>
+   <object objectType="Relation" objectID="4CC7AA3F-4446-425A-8705-E66CB0E242D1" name="Relation_22" seqName="seg_0"/>
+   <object objectType="Relation" objectID="5976096F-93BC-9AA8-3822-ECCBD41D4755" name="Relation_23" seqName="seg_0"/>
+   <object objectType="Relation" objectID="B54CC2FB-60B2-00AC-EE4E-D8778A661406" name="Relation_24" seqName="seg_0"/>
+   <object objectType="Relation" objectID="5AD35200-9819-533B-55C7-DFCC5331FCCB" name="Relation_25" seqName="seg_0"/>
+   <object objectType="Relation" objectID="6B3A29B8-CD3B-06DB-B533-0E4188E7F6DF" name="Requestor_RFE" seqName="seg_0"/>
+   <object objectType="Hierarchy relation" objectID="69965C71-54C1-259C-0F06-B3641052EE3D" name="Hierarchy_1" seqName="seg_0"/>
+   <object objectType="Hierarchy relation" objectID="F8F334EA-56AB-2DC3-8425-13BE3CA9CB12" name="Hierarchy_10" seqName="seg_0"/>
+   <object objectType="Hierarchy relation" objectID="6CB7235C-1487-A755-6ACB-41DF44FA9EC5" name="Hierarchy_11" seqName="seg_0"/>
+   <object objectType="Hierarchy relation" objectID="35376A54-0D9A-08F1-C968-B87CD139C294" name="Hierarchy_2" seqName="seg_0"/>
+   <object objectType="Hierarchy relation" objectID="8139D437-46DD-5D27-D238-F3CFF4A10F39" name="Hierarchy_3" seqName="seg_0"/>
+   <object objectType="Hierarchy relation" objectID="E8FE8ED4-9047-A06E-D2B3-F2E4371D6922" name="Hierarchy_4" seqName="seg_0"/>
+   <object objectType="Hierarchy relation" objectID="97032721-FF68-15C2-AF4D-3D7EF9513B80" name="Hierarchy_5" seqName="seg_0"/>
+   <object objectType="Hierarchy relation" objectID="3CC6D1E0-8ABB-860A-6C04-C9C5B697E176" name="Hierarchy_6" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

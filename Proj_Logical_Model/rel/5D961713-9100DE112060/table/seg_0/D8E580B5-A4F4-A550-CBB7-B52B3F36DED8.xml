@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D8E580B5-A4F4-A550-CBB7-B52B3F36DED8" name="F15.C9_Authorization">
+<createdBy>tr</createdBy>
+<createdTime>2015-11-09 09:15:17 UTC</createdTime>
+<generatorID>1ECA7931-C29B-399E-6A52-C06039F8A5B1</generatorID>
+<ownerDesignName>Proj_Logical_Model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Authorization_id" id="248D88E3-3052-F610-39AD-908F08CE312E">
+<createdBy>tr</createdBy>
+<createdTime>2015-11-09 09:15:17 UTC</createdTime>
+<generatorID>51282BAB-73BD-A877-9CA1-39C4B94F707D</generatorID>
+<ownerDesignName>Proj_Logical_Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Right" id="AF9C062D-ECB4-9A65-851A-AF6EC4F9F1AF">
+<createdBy>tr</createdBy>
+<createdTime>2015-11-09 09:15:17 UTC</createdTime>
+<generatorID>EEF6B735-F1BE-9F6E-792D-A585CCEE5513</generatorID>
+<ownerDesignName>Proj_Logical_Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMPLOYEE_ID" id="DA449733-5A27-73FF-C1DE-D6F26AACCB5E">
+<createdBy>tr</createdBy>
+<createdTime>2015-11-09 09:15:17 UTC</createdTime>
+<generatorID>B8FF588D-772E-744B-B6DD-961A144A065A</generatorID>
+<ownerDesignName>Proj_Logical_Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="00C70C21-B9CD-A726-4E2F-0CA5D0129C9D" name="F15.C9_Authorization_PK">
+<createdBy>tr</createdBy>
+<createdTime>2015-11-09 09:15:17 UTC</createdTime>
+<generatorID>AA946C82-C671-3648-9D09-B1C2DA76A7F4</generatorID>
+<ownerDesignName>Proj_Logical_Model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="248D88E3-3052-F610-39AD-908F08CE312E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="95FEF835-A413-9A57-74B1-B382E3F91647" name="F15.C9_Authorization__IDX">
+<createdBy>tr</createdBy>
+<createdTime>2015-11-09 09:15:17 UTC</createdTime>
+<ownerDesignName>Proj_Logical_Model</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>11D6ED28-CF4A-D02F-6F3E-75276BAC39D7</relationGeneratorID>
+</ind_PK_UK>
+</indexes>
+</Table>

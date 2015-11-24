@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="F15.C9 RFE EXCEPTION REQUESTS F15.C9 LAB EMPLOYEE FKv1" directorySegmentName="seg_0" id="05C5C570-B470-4A82-E8FF-23A8D7A5E383">
+<createdBy>Jared</createdBy>
+<createdTime>2015-10-21 23:23:37 UTC</createdTime>
+<ownerDesignName>Proj_Concept_Model</ownerDesignName>
+<engineerTo>
+<item key="CBAA3F05-B333-FE37-B180-48A226BD08AF" value="true"/>
+</engineerTo>
+<targetPk>3F09DB24-B3F6-EB91-632D-D088602E472C</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>4AEDCC49-C1CA-D27D-2D46-C72A07480A60</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>9D668F38-9215-98B0-87CC-8C702DE5FE12</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

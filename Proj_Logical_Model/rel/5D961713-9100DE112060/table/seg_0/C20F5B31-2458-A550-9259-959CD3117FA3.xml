@@ -1,0 +1,163 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C20F5B31-2458-A550-9259-959CD3117FA3" name="F15.C9_RFE_CONTACTS">
+<createdBy>tr</createdBy>
+<createdTime>2015-11-09 09:15:17 UTC</createdTime>
+<generatorID>0BD8CF0A-2704-A9F3-AD43-C52A7E6BC9B0</generatorID>
+<ownerDesignName>Proj_Logical_Model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="RFE_ID" id="C2B2ACDC-F3A1-9087-BB54-2723B23E6473">
+<createdBy>tr</createdBy>
+<createdTime>2015-11-09 09:15:17 UTC</createdTime>
+<generatorID>31B91653-B91E-C700-B821-CCA069F2632A</generatorID>
+<ownerDesignName>Proj_Logical_Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CONTACT_ROLE_CODE" id="677AA9F0-4F04-7EA6-BFA3-9CCB17101818">
+<createdBy>tr</createdBy>
+<createdTime>2015-11-09 09:15:17 UTC</createdTime>
+<generatorID>6D31D26B-FD36-DC13-DA4D-FF028F3A1FAB</generatorID>
+<ownerDesignName>Proj_Logical_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CONTACT_EMP_ID" id="6069A802-E206-25BB-D1F4-3DD37A00DDE1">
+<createdBy>tr</createdBy>
+<createdTime>2015-11-09 09:15:17 UTC</createdTime>
+<generatorID>322DB352-D015-BA5E-6451-0CC2CEBBF284</generatorID>
+<ownerDesignName>Proj_Logical_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EFFECTIVE_DATE" id="43C9C04C-F41B-15BC-4422-4521A95A3195">
+<createdBy>tr</createdBy>
+<createdTime>2015-11-09 09:15:17 UTC</createdTime>
+<generatorID>8B327F23-28B4-11CD-C487-8952B66CFFD5</generatorID>
+<ownerDesignName>Proj_Logical_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COMMENTS" id="B8CC865F-5BCA-80F8-A016-A3F723786907">
+<createdBy>tr</createdBy>
+<createdTime>2015-11-09 09:15:17 UTC</createdTime>
+<generatorID>51A1B852-E688-50F4-E94A-25CC83A93AD5</generatorID>
+<ownerDesignName>Proj_Logical_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<ownDataTypeParameters>4000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="F15.C9_ARL_EMPLOYEES_EMPLOYEE_ID2" id="6E7F27BF-306E-A5FD-803E-3AD2FAA48EB4">
+<createdBy>tr</createdBy>
+<createdTime>2015-11-09 09:15:17 UTC</createdTime>
+<generatorID>BEB472BC-0AA7-11FF-A350-89669858B63D</generatorID>
+<ownerDesignName>Proj_Logical_Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="F15.C9_RFE_EXCEPTION_REQUESTS_RFE_ID" id="8F970279-46E4-FD35-C104-1EB69240AA34">
+<createdBy>tr</createdBy>
+<createdTime>2015-11-09 09:15:17 UTC</createdTime>
+<generatorID>D3615157-4053-CF14-DC82-C0B6D1593EC2</generatorID>
+<ownerDesignName>Proj_Logical_Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="18AF468A-69FF-B166-E5D6-34311522FFD8" referredColumn="922B2E87-DD04-9F70-1C35-FDE8030BCB02"/>
+</associations>
+</Column>
+<Column name="CONTACT_ROLE" id="15F180B4-D8DF-CB8D-7E14-B08E04900129">
+<createdBy>tr</createdBy>
+<createdTime>2015-11-09 09:15:17 UTC</createdTime>
+<generatorID>09FA636B-7645-28AA-8805-B8661240D833</generatorID>
+<ownerDesignName>Proj_Logical_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="F15.C9_ARL_EMPLOYEES_EMPLOYEE_ID" id="7A098832-B3ED-D899-7DE4-5A43FE9B695E">
+<createdBy>tr</createdBy>
+<createdTime>2015-11-09 09:15:17 UTC</createdTime>
+<generatorID>CFA8D3FF-8300-9546-D321-A28155E4F92B</generatorID>
+<ownerDesignName>Proj_Logical_Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="232A6CB0-E875-23B3-5DC5-0555CE274E82" referredColumn="C4FDA07A-64FB-5872-9F69-203297A3F0BF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="11CF0E26-F7D4-AAC1-08C6-A871C185620A" name="F15.C9_RFE_CONTACTS_PK">
+<createdBy>tr</createdBy>
+<createdTime>2015-11-09 09:15:17 UTC</createdTime>
+<generatorID>F7DE8F0D-D319-BFBA-0FBC-41BC51361ADE</generatorID>
+<ownerDesignName>Proj_Logical_Model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C2B2ACDC-F3A1-9087-BB54-2723B23E6473"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BFE7E1D5-575F-EFFF-41B7-353508FC339A" name="F15.C9_RFE_CONTACTS_F15.C9_RFE_EXCEPTION_REQUESTS_FK">
+<createdBy>tr</createdBy>
+<createdTime>2015-11-09 09:15:17 UTC</createdTime>
+<generatorID>21A7265C-4AAC-E2C9-7433-BD9DF7276B6C</generatorID>
+<ownerDesignName>Proj_Logical_Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8F970279-46E4-FD35-C104-1EB69240AA34"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9DCE8BE2-56FE-B1BF-0106-27960F230A56" name="F15.C9_RFE_CONTACTS_F15.C9_ARL_EMPLOYEES_FK">
+<createdBy>tr</createdBy>
+<createdTime>2015-11-09 09:15:17 UTC</createdTime>
+<generatorID>D7F993CC-B0AC-65C6-D27D-3D696E09BC38</generatorID>
+<ownerDesignName>Proj_Logical_Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7A098832-B3ED-D899-7DE4-5A43FE9B695E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

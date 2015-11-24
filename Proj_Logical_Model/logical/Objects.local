@@ -1,0 +1,29 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="B1797164-5C42-1B82-4112-91A1136B7AB8" name="F15.C9 ARL EMPLOYEES" seqName="seg_0"/>
+   <object objectType="Entity" objectID="942B1254-396A-D2B5-9B9A-E183679D1C20" name="F15.C9 Documentation" seqName="seg_0"/>
+   <object objectType="Entity" objectID="BFEBEF3B-4D19-70AD-864B-4413E79284D3" name="F15.C9 LAB" seqName="seg_0"/>
+   <object objectType="Entity" objectID="0BD8CF0A-2704-A9F3-AD43-C52A7E6BC9B0" name="F15.C9 RFE CONTACTS" seqName="seg_0"/>
+   <object objectType="Entity" objectID="847FF433-3BC1-C226-2BA6-BE9FE0E1571B" name="F15.C9 RFE EXCEPTION REQUESTS" seqName="seg_0"/>
+   <object objectType="Entity" objectID="F3901993-1D84-C71A-122D-A00176137BF2" name="F15.C9 RFE HISTORY" seqName="seg_0"/>
+   <object objectType="Entity" objectID="E045AB54-B8EC-EC26-42A8-7AEC61BC24BF" name="F15.C9 RFE STATUS CODES" seqName="seg_0"/>
+   <object objectType="Entity" objectID="EF427D7D-F862-E097-840A-CF2C4D0D7216" name="F15.C9 RFE TASKS" seqName="seg_0"/>
+   <object objectType="Entity" objectID="26D7D324-61EA-600D-5FB9-EAB51915797C" name="F15.C9 RFE TRACKING COMMENTS" seqName="seg_0"/>
+   <object objectType="Entity" objectID="1ECA7931-C29B-399E-6A52-C06039F8A5B1" name="F15.C9_Authorization " seqName="seg_0"/>
+   <object objectType="Entity" objectID="5D802E3C-82D5-EAF6-2A0A-CBB27FAB2E49" name="F19.C9_Notice" seqName="seg_0"/>
+   <object objectType="Entity" objectID="E38B156A-6C64-A1FD-0659-A357F8E4147A" name="F19.C9_RFE_TASK_RD" seqName="seg_0"/>
+   <object objectType="Relation" objectID="21A7265C-4AAC-E2C9-7433-BD9DF7276B6C" name="F15.C9 RFE CONTACTS F15.C9 RFE EXCEPTION REQUESTS FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="644972D5-BD0E-A19A-416F-92DE2E385F4D" name="F15.C9 RFE STATUSES F15.C9 RFE EXCEPTION REQUESTS FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="5DCC5949-5F23-1F09-6EC7-1818FF5208EB" name="F15.C9 RFE TASKS F15.C9 RFE EXCEPTION REQUESTS FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="D7F993CC-B0AC-65C6-D27D-3D696E09BC38" name="Relation_11" seqName="seg_0"/>
+   <object objectType="Relation" objectID="59EE09AB-695B-43DA-E897-C7CFF67029C4" name="Relation_13" seqName="seg_0"/>
+   <object objectType="Relation" objectID="BBB6F95F-DCC4-D6E2-4D2C-6C6D23A24EFA" name="Relation_14" seqName="seg_0"/>
+   <object objectType="Relation" objectID="4DEC01A0-6485-78D7-34EC-923072754274" name="Relation_16" seqName="seg_0"/>
+   <object objectType="Relation" objectID="7C932860-BE0C-4F85-0FBA-F1809E736E29" name="Relation_17" seqName="seg_0"/>
+   <object objectType="Relation" objectID="841A4950-850A-6AC4-0310-706B3A9EB9D2" name="Relation_18" seqName="seg_0"/>
+   <object objectType="Relation" objectID="013A543F-A4E0-586F-3B83-184FECC94303" name="Relation_19" seqName="seg_0"/>
+   <object objectType="Relation" objectID="72D10C3E-6D4A-34EB-BFC2-86241027BFCC" name="Relation_21" seqName="seg_0"/>
+   <object objectType="Relation" objectID="11D6ED28-CF4A-D02F-6F3E-75276BAC39D7" name="Relation_6" seqName="seg_0"/>
+   <object objectType="Relation" objectID="D533EDB3-6934-97A1-6E10-E6548C17F1B3" name="Relation_7" seqName="seg_0"/>
+   <object objectType="Relation" objectID="F0E0C0B8-3A8D-5EBA-9856-984EFCFF5F25" name="Relation_8" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

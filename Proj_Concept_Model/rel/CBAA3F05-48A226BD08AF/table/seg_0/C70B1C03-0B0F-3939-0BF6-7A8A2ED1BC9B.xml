@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C70B1C03-0B0F-3939-0BF6-7A8A2ED1BC9B" name="F15.C9_PROJECT">
+<createdBy>Jared</createdBy>
+<createdTime>2015-10-22 01:05:37 UTC</createdTime>
+<ownerDesignName>Proj_Concept_Model</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PROJECT_ID" id="E92AA529-EFC2-6522-AA14-27FC37A2C686">
+<createdBy>Jared</createdBy>
+<createdTime>2015-10-22 01:06:30 UTC</createdTime>
+<ownerDesignName>Proj_Concept_Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROJECT_NAME" id="E361DB2C-AF28-B33B-535C-9C473BFBC84E">
+<createdBy>Jared</createdBy>
+<createdTime>2015-10-22 01:06:30 UTC</createdTime>
+<ownerDesignName>Proj_Concept_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATE_BEGIN" id="82455ECA-FE6A-19F3-7F68-1923ED29B713">
+<createdBy>Jared</createdBy>
+<createdTime>2015-10-22 01:07:08 UTC</createdTime>
+<ownerDesignName>Proj_Concept_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATE_END" id="A25BF44B-D550-9E49-BB3F-B954A5280DAA">
+<createdBy>Jared</createdBy>
+<createdTime>2015-10-22 01:07:08 UTC</createdTime>
+<ownerDesignName>Proj_Concept_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="F15.C9_LAB_LAB_ID" id="D4F7FBD0-A69D-11E9-212E-39798BED4C38">
+<createdBy>Jared</createdBy>
+<createdTime>2015-10-22 01:31:24 UTC</createdTime>
+<ownerDesignName>Proj_Concept_Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FB002EC2-D768-93BE-098B-32C29E9C516F" referredColumn="FEC682B2-E2C0-6580-654C-00478B940C7E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0748DE6D-9FE1-6530-E888-DA8B0F8C9976" name="F15.C9_PROJECT_PK">
+<createdBy>Jared</createdBy>
+<createdTime>2015-10-22 01:06:30 UTC</createdTime>
+<ownerDesignName>Proj_Concept_Model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E92AA529-EFC2-6522-AA14-27FC37A2C686"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1E31C44C-777A-E0B4-1AD6-EB8F3888C255" name="F15.C9_PROJECT_F15.C9_LAB_FK">
+<createdBy>Jared</createdBy>
+<createdTime>2015-10-22 01:31:24 UTC</createdTime>
+<ownerDesignName>Proj_Concept_Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D4F7FBD0-A69D-11E9-212E-39798BED4C38"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C151544B-CDD0-6370-6F17-CE1873D89865" name="F15.C9 RFE TASKS">
+<createdBy>Jared</createdBy>
+<createdTime>2015-10-21 22:59:15 UTC</createdTime>
+<ownerDesignName>Proj_Concept_Model</ownerDesignName>
+<engineerTo>
+<item key="7245CDFE-CF7F-61C2-FAE3-02B8EA5509E1" value="true"/>
+<item key="CBAA3F05-B333-FE37-B180-48A226BD08AF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="EFFECTIVE DATE" id="40A65AC2-26D2-A106-3F20-4B28C8E481B6">
+<createdBy>Jared</createdBy>
+<createdTime>2015-10-21 23:00:03 UTC</createdTime>
+<ownerDesignName>Proj_Concept_Model</ownerDesignName>
+<engineerTo>
+<item key="7245CDFE-CF7F-61C2-FAE3-02B8EA5509E1" value="true"/>
+<item key="CBAA3F05-B333-FE37-B180-48A226BD08AF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TASK ABBREVIATION" id="969517EF-746F-2DB2-B92D-4EAB967DFEE1">
+<createdBy>Jared</createdBy>
+<createdTime>2015-10-21 23:00:23 UTC</createdTime>
+<ownerDesignName>Proj_Concept_Model</ownerDesignName>
+<engineerTo>
+<item key="7245CDFE-CF7F-61C2-FAE3-02B8EA5509E1" value="true"/>
+<item key="CBAA3F05-B333-FE37-B180-48A226BD08AF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TASK DESCRIPTION" id="4DF313D1-A56B-82A4-19A8-57A36DAE0D33">
+<createdBy>Jared</createdBy>
+<createdTime>2015-10-21 23:00:42 UTC</createdTime>
+<ownerDesignName>Proj_Concept_Model</ownerDesignName>
+<engineerTo>
+<item key="7245CDFE-CF7F-61C2-FAE3-02B8EA5509E1" value="true"/>
+<item key="CBAA3F05-B333-FE37-B180-48A226BD08AF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<ownDataTypeParameters>4000,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID" id="431F5A56-E40A-6DA5-8354-8B2E71C5997A">
+<createdBy>Jared</createdBy>
+<createdTime>2015-10-22 00:22:05 UTC</createdTime>
+<ownerDesignName>Proj_Concept_Model</ownerDesignName>
+<engineerTo>
+<item key="7245CDFE-CF7F-61C2-FAE3-02B8EA5509E1" value="true"/>
+<item key="CBAA3F05-B333-FE37-B180-48A226BD08AF" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="F15.C9 RFE EXCEPTION REQUESTS RFE ID" id="831B356A-045C-35B2-6CCE-30D0D78EBE2B">
+<createdBy>Jared</createdBy>
+<createdTime>2015-10-22 00:22:23 UTC</createdTime>
+<generatorID>2E677996-C0CD-6C9E-8168-A2907AACFD70</generatorID>
+<ownerDesignName>Proj_Concept_Model</ownerDesignName>
+<engineerTo>
+<item key="7245CDFE-CF7F-61C2-FAE3-02B8EA5509E1" value="true"/>
+<item key="CBAA3F05-B333-FE37-B180-48A226BD08AF" value="true"/>
+</engineerTo>
+<referedAttribute>906D6F76-937C-D9F5-4024-F567709FFB65</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="07D234E4-3B46-8431-A48B-D75B4F084C06" name="F15.C9_RFE_TASKS_PK">
+<createdBy>Jared</createdBy>
+<createdTime>2015-10-21 23:19:28 UTC</createdTime>
+<ownerDesignName>Proj_Concept_Model</ownerDesignName>
+<engineerTo>
+<item key="7245CDFE-CF7F-61C2-FAE3-02B8EA5509E1" value="true"/>
+<item key="CBAA3F05-B333-FE37-B180-48A226BD08AF" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>431F5A56-E40A-6DA5-8354-8B2E71C5997A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

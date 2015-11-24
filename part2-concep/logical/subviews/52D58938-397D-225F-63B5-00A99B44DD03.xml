@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Diagram class="oracle.dbtools.crest.swingui.logical.DPVLogical" name="Logical" id="52D58938-397D-225F-63B5-00A99B44DD03">
+<createdBy>tr</createdBy>
+<modifiedBy>tr</modifiedBy>
+<createdTime>2015-11-24 18:03:31 UTC</createdTime>
+<autoRoute>false</autoRoute>
+<boxInbox>true</boxInbox>
+<showLegend>false</showLegend>
+<showLabels>false</showLabels>
+<showRelAttributes>false</showRelAttributes>
+<gridEnabled>false</gridEnabled>
+<showGrid>false</showGrid>
+<diagramColor>-1</diagramColor>
+<display>false</display>
+<notation>1</notation>
+<objectViews>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="1D666146-CA18-EA92-21AF-6BB54EA6E367" otype="Entity" vid="0D04EF51-FE70-4D1B-4F38-1AAE1D8B694F">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="401" y="77" width="176" height="197"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="372C2066-F0EC-CDB7-42A7-2BA63ED02BDD" otype="Entity" vid="A59D85C7-5DA4-EDFE-37B4-82510176C895">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="94" y="78" width="163" height="165"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="F7D518D3-EEDB-40CC-00E4-4154185A5E9E" otype="Entity" vid="D5F60A65-930E-DDEC-137C-04356AED8124">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="724" y="81" width="208" height="162"/>
+</OView>
+</objectViews>
+<connectors>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="6516BA0F-26E4-004F-9E73-4EB151527870" otype="Relation" vid_source="D5F60A65-930E-DDEC-137C-04356AED8124" vid_target="0D04EF51-FE70-4D1B-4F38-1AAE1D8B694F">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<lineWidth>1</lineWidth>
+<points>
+<point x="724" y="162"/>
+<point x="577" y="162"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="CEC7D15D-905F-F496-A235-0823F4AB68EE" otype="Relation" vid_source="A59D85C7-5DA4-EDFE-37B4-82510176C895" vid_target="0D04EF51-FE70-4D1B-4F38-1AAE1D8B694F">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<lineWidth>1</lineWidth>
+<points>
+<point x="257" y="170"/>
+<point x="401" y="170"/>
+</points>
+</Connector>
+</connectors>
+</Diagram>

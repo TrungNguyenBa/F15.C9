@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1C6B24C9-A48C-B365-1A32-6DEE99165DCE" name="F19.C9_Notice">
+<createdBy>tr</createdBy>
+<createdTime>2015-11-21 22:20:43 UTC</createdTime>
+<ownerDesignName>Proj_Logical_Model</ownerDesignName>
+<ordsAlias>table_12</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="0E7F0ED7-A351-A8E6-AAF3-77A71F9DDDB3">
+<createdBy>tr</createdBy>
+<createdTime>2015-11-21 22:21:48 UTC</createdTime>
+<ownerDesignName>Proj_Logical_Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EFFECTIVE_DAY" id="E17E7356-F7BE-B289-5B0B-F3D7B99C3CCC">
+<createdBy>tr</createdBy>
+<createdTime>2015-11-21 22:21:48 UTC</createdTime>
+<ownerDesignName>Proj_Logical_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="F15.C9_ARL_EMPLOYEES_EMPLOYEE_ID" id="C839E554-E217-3862-5718-333E0863A8E1">
+<createdBy>tr</createdBy>
+<createdTime>2015-11-21 22:21:54 UTC</createdTime>
+<ownerDesignName>Proj_Logical_Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="68B206AC-F8C0-3CF1-3575-37C040F3ABEC" referredColumn="C4FDA07A-64FB-5872-9F69-203297A3F0BF"/>
+</associations>
+</Column>
+<Column name="F15.C9_RFE_EXCEPTION_REQUESTS_RFE_ID" id="6647135F-7607-481D-72B9-66472A597151">
+<createdBy>tr</createdBy>
+<createdTime>2015-11-21 22:22:10 UTC</createdTime>
+<ownerDesignName>Proj_Logical_Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ABCFA974-E3B9-0D2E-7304-22FE0CBA3DC5" referredColumn="922B2E87-DD04-9F70-1C35-FDE8030BCB02"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1D6668F6-E0F4-8097-E678-B2CCDAFF5314" name="F19.C9_Notice_PK">
+<createdBy>tr</createdBy>
+<createdTime>2015-11-21 22:21:48 UTC</createdTime>
+<ownerDesignName>Proj_Logical_Model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0E7F0ED7-A351-A8E6-AAF3-77A71F9DDDB3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B74FE5E9-3973-7753-4472-0E89D48AA5E9" name="F19.C9_Notice_F15.C9_ARL_EMPLOYEES_FK">
+<createdBy>tr</createdBy>
+<createdTime>2015-11-21 22:21:54 UTC</createdTime>
+<generatorID>AC2819E7-50C6-A274-1C9A-AED2A97B5633</generatorID>
+<ownerDesignName>Proj_Logical_Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C839E554-E217-3862-5718-333E0863A8E1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A182339A-7413-7763-D72D-26C64FD7C91B" name="F19.C9_Notice_F15.C9_RFE_EXCEPTION_REQUESTS_FK">
+<createdBy>tr</createdBy>
+<createdTime>2015-11-21 22:22:10 UTC</createdTime>
+<generatorID>3357F398-CA4B-8686-41D6-10286D95C0B9</generatorID>
+<ownerDesignName>Proj_Logical_Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6647135F-7607-481D-72B9-66472A597151"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DC3A24E8-01EC-8FC1-955B-90F96A101AA2" name="F15.C9_RFE_TRACKING_COMMENTS">
+<createdBy>tr</createdBy>
+<createdTime>2015-11-09 09:15:17 UTC</createdTime>
+<generatorID>26D7D324-61EA-600D-5FB9-EAB51915797C</generatorID>
+<ownerDesignName>Proj_Logical_Model</ownerDesignName>
+<ordsAlias>f15_c9_rfe_tracking_comments</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="RFE_ID" id="58FD18FF-4F85-367E-6869-B56AAE485C9A">
+<createdBy>tr</createdBy>
+<createdTime>2015-11-09 09:15:17 UTC</createdTime>
+<generatorID>D70753F6-DA7D-4A68-60E1-2F0251E64B10</generatorID>
+<ownerDesignName>Proj_Logical_Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ENTERED_BY_EMP_ID" id="A0308B02-4CEB-EDCD-EE02-9236F61F347A">
+<createdBy>tr</createdBy>
+<createdTime>2015-11-09 09:15:17 UTC</createdTime>
+<generatorID>3FEBD1FD-7F87-872C-5701-DCD0EFD72CCD</generatorID>
+<ownerDesignName>Proj_Logical_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COMMENT_ENTRY_DATE" id="AA0ECD74-1FA7-9973-1FD1-3DD551429CDA">
+<createdBy>tr</createdBy>
+<createdTime>2015-11-09 09:15:17 UTC</createdTime>
+<generatorID>ED0058C1-769F-A20C-95CE-736B3520B360</generatorID>
+<ownerDesignName>Proj_Logical_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COMMENTS" id="A8F43BEA-C65B-D01B-BA40-8D081764D987">
+<createdBy>tr</createdBy>
+<createdTime>2015-11-09 09:15:17 UTC</createdTime>
+<generatorID>9DCB1529-CABF-BD77-C2BE-0035918DBFEC</generatorID>
+<ownerDesignName>Proj_Logical_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<ownDataTypeParameters>4000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMPLOYEE_ID" id="C7D2DE22-16CE-F9F5-E887-5B8C8C301BED">
+<createdBy>tr</createdBy>
+<createdTime>2015-11-09 09:15:17 UTC</createdTime>
+<generatorID>2742CE76-C0BC-DDE3-A8F4-47262D06FA39</generatorID>
+<ownerDesignName>Proj_Logical_Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="F15.C9_RFE_ID" id="DF8741C2-E605-6BD7-CCB7-0C49FC2E830F">
+<createdBy>tr</createdBy>
+<createdTime>2015-11-20 18:15:46 UTC</createdTime>
+<ownerDesignName>Proj_Logical_Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="652DD098-642F-AEEB-A69E-AD228A68DD8D" referredColumn="922B2E87-DD04-9F70-1C35-FDE8030BCB02"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BAEF8B23-D1BD-F8FB-54DD-FEFA67C612A7" name="F15.C9_RFE_TRACKING_COMMENTS_PK">
+<createdBy>tr</createdBy>
+<createdTime>2015-11-09 09:15:17 UTC</createdTime>
+<generatorID>B1794D09-8DAB-4C8B-A100-CFC941C891DD</generatorID>
+<ownerDesignName>Proj_Logical_Model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="58FD18FF-4F85-367E-6869-B56AAE485C9A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FEA6C915-EFEA-8B84-75D0-CF4CC69CB02E" name="F15.C9_RFE_cmt_FK">
+<createdBy>tr</createdBy>
+<createdTime>2015-11-20 18:15:46 UTC</createdTime>
+<generatorID>3357F398-CA4B-8686-41D6-10286D95C0B9</generatorID>
+<ownerDesignName>Proj_Logical_Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DF8741C2-E605-6BD7-CCB7-0C49FC2E830F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

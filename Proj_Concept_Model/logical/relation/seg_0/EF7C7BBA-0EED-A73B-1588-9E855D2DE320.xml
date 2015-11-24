@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="F15.C9 RFE EXCEPTION REQUESTS F15.C9 CHAIRPERSON FK" directorySegmentName="seg_0" id="EF7C7BBA-0EED-A73B-1588-9E855D2DE320">
+<createdBy>Jared</createdBy>
+<createdTime>2015-10-21 23:26:55 UTC</createdTime>
+<ownerDesignName>Proj_Concept_Model</ownerDesignName>
+<engineerTo>
+<item key="7245CDFE-CF7F-61C2-FAE3-02B8EA5509E1" value="true"/>
+<item key="CBAA3F05-B333-FE37-B180-48A226BD08AF" value="true"/>
+</engineerTo>
+<sourcePk>6C18467E-6B9D-D274-AF47-79B22CEBA514</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C3C2EC6B-0DCC-A039-FD1B-473C5246C2A6</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>9D668F38-9215-98B0-87CC-8C702DE5FE12</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
