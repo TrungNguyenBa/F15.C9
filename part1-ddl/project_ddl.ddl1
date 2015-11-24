@@ -1,0 +1,202 @@
+--1
+DROP SEQUENCE "F15.C9_EMPL_SEQ" ; 
+create sequence "F15.C9_EMPL_SEQ" 
+start with 100 
+increment by 1 
+nomaxvalue 
+;
+DROP TRIGGER "F15.C9_EMPL_PK_trig" 
+; 
+
+create or replace trigger "F15.C9_EMPL_PK_trig" 
+before insert on "F15.C9_ARL_EMPLOYEES"
+for each row 
+begin 
+select "F15.C9_EMPL_SEQ".nextval into :new.EMPLOYEE_ID from dual; 
+end; 
+/
+--2
+DROP SEQUENCE "F15.C9_LAB_SEQ" ; 
+create sequence "F15.C9_LAB_SEQ" 
+start with 100 
+increment by 1 
+nomaxvalue 
+;
+DROP TRIGGER "F15.C9_LAB_PK_trig" 
+; 
+
+create or replace trigger "F15.C9_LAB_PK_trig" 
+before insert on "F15.C9_ARL_LAB"
+for each row 
+begin 
+select "F15.C9_LAB_SEQ".nextval into :new.LAB_ID from dual; 
+end;
+/
+--3
+DROP SEQUENCE "F15.C9_CONT_SEQ" ; 
+create sequence "F15.C9_CONT_SEQ" 
+start with 100 
+increment by 1 
+nomaxvalue 
+;
+DROP TRIGGER "F15.C9_CONT_PK_trig" 
+; 
+
+create or replace trigger "F15.C9_CONT_PK_trig" 
+before insert on "F15.C9_RFE_CONTACTS"
+for each row 
+begin 
+select "F15.C9_CONT_SEQ".nextval into :new.RFE_ID from dual; 
+end;
+/
+--4
+--1
+DROP SEQUENCE "F15.C9_RFE_SEQ" ;
+DROP SEQUENCE "F15.C9_REF_SEQ" ;
+create sequence "F15.C9_RFE_SEQ" 
+start with 100 
+increment by 1 
+nomaxvalue 
+;
+DROP TRIGGER "F15.C9_REF_PK_trig" 
+; 
+
+create or replace trigger "F15.C9_REF_PK_trig" 
+before insert on "F15.C9_RFE_EXCEPTION_REQUESTS"
+for each row 
+declare 
+    vl integer;
+begin 
+    select "F15.C9_RFE_SEQ".nextval into :new.RFE_ID from dual;
+    vl := :new.RFE_ID ;
+    update "GLOBLE_VALUE"
+    set "VALUE" = vl
+    where "GLOBLE_ID" = 1;
+end;
+/
+--5
+--1
+DROP SEQUENCE "F15.C9_AUTH_SEQ" ; 
+create sequence "F15.C9_AUTH_SEQ" 
+start with 100 
+increment by 1 
+nomaxvalue 
+;
+DROP TRIGGER "F15.C9_AUTH_PK_trig" 
+; 
+
+create or replace trigger "F15.C9_AUTH_PK_trig" 
+before insert on "F15.C9_Authorization"
+for each row 
+begin 
+select "F15.C9_AUTH_SEQ".nextval into :new.AUTH_ID from dual; 
+end;
+/
+--6
+--1
+DROP SEQUENCE "F15.C9_CMMT_SEQ" ; 
+create sequence "F15.C9_CMMT_SEQ" 
+start with 100 
+increment by 1 
+nomaxvalue 
+;
+DROP TRIGGER "F15.C9_CMMT_PK_trig" 
+; 
+
+create or replace trigger "F15.C9_CMMT_PK_trig" 
+before insert on "F15.C9_RFE_TRACKING_COMMENTS"
+for each row 
+begin 
+select "F15.C9_CMMT_SEQ".nextval into :new.RFE_ID from dual; 
+end;
+/
+--7
+--1
+DROP SEQUENCE "F15.C9_TASK_SEQ" ; 
+create sequence "F15.C9_TASK_SEQ" 
+start with 100 
+increment by 1 
+nomaxvalue 
+;
+DROP TRIGGER "F15.C9_TASK_PK_trig" 
+; 
+
+create or replace trigger "F15.C9_TASK_PK_trig" 
+before insert on "F15.C9_RFE_TASKS"
+for each row 
+begin 
+select "F15.C9_TASK_SEQ".nextval into :new.TASK_ID from dual; 
+end;
+/
+--8
+--1
+DROP SEQUENCE "F15.C9_TSK_RD_SEQ" ; 
+create sequence "F15.C9_TSK_RD_SEQ" 
+start with 100 
+increment by 1 
+nomaxvalue 
+;
+DROP TRIGGER "F15.C9_TSK_RD_PK_trig" 
+; 
+
+create or replace trigger "F15.C9_TSK_RD_PK_trig" 
+before insert on "F19.C9_REF_TASK_RD"
+for each row 
+begin 
+select "F15.C9_TSK_RD_SEQ".nextval into :new.ID from dual; 
+end;
+/
+--9
+--1
+DROP SEQUENCE "F15.C9_HIST_SEQ" ; 
+create sequence "F15.C9_HIST_SEQ" 
+start with 100 
+increment by 1 
+nomaxvalue 
+;
+DROP TRIGGER "F15.C9_HIST_PK_trig" 
+; 
+
+create or replace trigger "F15.C9_HIST_PK_trig" 
+before insert on "F15.C9_RFE_HISTORY"
+for each row 
+begin 
+select "F15.C9_HIST_SEQ".nextval into :new.ID from dual; 
+end;
+/
+--10
+--1
+DROP SEQUENCE "F15.C9_DOC_SEQ" ; 
+create sequence "F15.C9_DOC_SEQ" 
+start with 100 
+increment by 1 
+nomaxvalue 
+;
+DROP TRIGGER "F15.C9_DOC_PK_trig" 
+; 
+
+create or replace trigger "F15.C9_DOC_PK_trig" 
+before insert on "F15.C9_Documentation"
+for each row 
+begin 
+select "F15.C9_DOC_SEQ".nextval into :new.DOCUMENT_ID from dual; 
+end;
+/
+--11
+--1
+DROP SEQUENCE "F15.C9_STT_SEQ" ; 
+create sequence "F15.C9_STT_SEQ" 
+start with 100 
+increment by 1 
+nomaxvalue 
+;
+DROP TRIGGER "F15.C9_STT_PK_trig" 
+; 
+
+create or replace trigger "F15.C9_STT_PK_trig" 
+before insert on "F15.C9_RFE_STATUS_CODES"
+for each row 
+begin 
+select "F15.C9_STT_SEQ".nextval into :new.STATUS_CODE from dual; 
+end;
+/

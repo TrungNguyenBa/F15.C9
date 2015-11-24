@@ -1,0 +1,75 @@
+-- Truncate each of the sample data tables using the following statement:
+Truncate TABLE "F15.C9_Authorization";
+Truncate TABLE "F15.C9_RFE_CONTACTS";
+Truncate TABLE "F15.C9_RFE_TRACKING_COMMENTS";
+Truncate TABLE "F19.C9_Notice";
+Truncate TABLE "F19.C9_REF_TASK_RD";
+Truncate TABLE "F19.C9_REF_TASK_RD";
+Truncate TABLE "F15.C9_RFE_HISTORY";
+Truncate TABLE "F15.C9_Documentation";
+Truncate TABLE "F15.C9_RFE_TASKS";
+Truncate TABLE "F15.C9_ARL_EMPLOYEES";
+Truncate TABLE "F15.C9_RFE_EXCEPTION_REQUESTS";
+Truncate TABLE "F15.C9_RFE_STATUS_CODES";
+Truncate TABLE "F15.C9_ARL_LAB";
+-- Disable the PK triggers on the sample data tables using the following statement:
+alter trigger EMP_CP_TRIGGER  disable;
+alter trigger EMP_EXC_TRIGGER disable;
+alter trigger EMP_LD_TRIGGER disable;
+alter trigger EMP_NOR_TRIGGER disable;
+alter trigger EMP_SYS_TRIGGER disable;
+alter trigger EMP_TRG1 disable;
+alter trigger "F15.C9_AUTH_PK_trig"         disable;
+alter trigger "F15.C9_CMMT_PK_trig"         disable;
+alter trigger "F15.C9_COMM_UP_TRIG"         disable;
+alter trigger "F15.C9_CONT_PK_trig"         disable;
+alter trigger "F15.C9_DOC_PK_trig"         disable;
+alter trigger "F15.C9_DOC_UP_TRIG"         disable;
+alter trigger "F15.C9_EMPL_PK_trig"         disable;
+alter trigger "F15.C9_HIST_PK_trig"         disable;
+alter trigger "F15.C9_LAB_PK_trig"         disable;
+alter trigger "F15.C9_Not_Tr_PK"         disable;
+alter trigger "F15.C9_PENDING_TRIG"         disable;
+alter trigger "F15.C9_REF_PK_trig"         disable;
+alter trigger "F15.C9_STT_PK_trig"         disable;
+alter trigger "F15.C9_TASK_PK_trig"         disable;
+alter trigger "F15.C9_TSK_RD_PK_trig"         disable;
+
+
+
+-- Put all of the sample data INSERT statements here. Be sure to use PK and FK values that
+-- are < 100 so that they won't be reapeated by the PK triggers when they are re-enabled.
+insert into "F15.C9_Authorization" values (1,'VIEW');
+insert into "F15.C9_RFE_CONTACTS" values(1,'REQUESTOR',1,SYSDATE,'',1,'REQUESTOR',1);
+insert into "F15.C9_RFE_TRACKING_COMMENTS" values(1,1,SYSDATE,'',1,1);
+insert into "F19.C9_Notice" values(1,SYSDATE,1,1);
+insert into "F19.C9_REF_TASK_RD" values(1,1,1,SYSDATE);
+insert into "F15.C9_RFE_HISTORY" values(1,SYSDATE,1,'emp',1,'PENDING');
+insert into "F15.C9_RFE_TASKS" values(1,'A','A');
+insert into "F15.C9_ARL_EMPLOYEES" values(1,'A','A','','','','',SYSDATE,'1','0','0','0','','',1,1);
+insert into "F15.C9_RFE_EXCEPTION_REQUESTS" values(1,'A','A',SYSDATE,1);
+insert into "F15.C9_RFE_STATUS_CODES" values(1,'A','A');	
+insert into "F15.C9_ARL_LAB" values(1,'A','A');
+-- Enable the PK triggers on the sample data tables using the following statement:
+-- Disable the PK triggers on the sample data tables using the following statement:
+alter trigger EMP_CP_TRIGGER  Enable;
+alter trigger EMP_EXC_TRIGGER Enable;
+alter trigger EMP_LD_TRIGGER Enable;
+alter trigger EMP_NOR_TRIGGER Enable;
+alter trigger EMP_SYS_TRIGGER Enable;
+alter trigger EMP_TRG1 Enable;
+alter trigger "F15.C9_AUTH_PK_trig"         Enable;
+alter trigger "F15.C9_CMMT_PK_trig"         Enable;
+alter trigger "F15.C9_COMM_UP_TRIG"         Enable;
+alter trigger "F15.C9_CONT_PK_trig"         Enable;
+alter trigger "F15.C9_DOC_PK_trig"         Enable;
+alter trigger "F15.C9_DOC_UP_TRIG"         Enable;
+alter trigger "F15.C9_EMPL_PK_trig"         Enable;
+alter trigger "F15.C9_HIST_PK_trig"         Enable;
+alter trigger "F15.C9_LAB_PK_trig"         Enable;
+alter trigger "F15.C9_Not_Tr_PK"         Enable;
+alter trigger "F15.C9_PENDING_TRIG"         Enable;
+alter trigger "F15.C9_REF_PK_trig"         Enable;
+alter trigger "F15.C9_STT_PK_trig"         Enable;
+alter trigger "F15.C9_TASK_PK_trig"         Enable;
+alter trigger "F15.C9_TSK_RD_PK_trig"         Enable;
